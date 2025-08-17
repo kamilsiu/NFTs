@@ -1,13 +1,46 @@
-Happy svg:
+# NFTs (Non-Fungible Tokens)
 
-data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjQwMCIgIGhlaWdodD0iNDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgZmlsbD0ieWVsbG93IiByPSI3OCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPGcgY2xhc3M9ImV5ZXMiPgogICAgPGNpcmNsZSBjeD0iNzAiIGN5PSI4MiIgcj0iMTIiLz4KICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjgyIiByPSIxMiIvPgogIDwvZz4KICA8cGF0aCBkPSJtMTM2LjgxIDExNi41M2MuNjkgMjYuMTctNjQuMTEgNDItODEuNTItLjczIiBzdHlsZT0iZmlsbDpub25lOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDM7Ii8+Cjwvc3ZnPg==
+## What are NFTs?
+NFTs (**Non-Fungible Tokens**) are unique digital assets that follow the **ERC-721 standard** (in contrast to fungible ERC-20 tokens).  
+While ERC-20 tokens are interchangeable (1 token = any other token of the same kind), NFTs are **non-fungible**, meaning each one is distinct and cannot be swapped on a one-to-one basis.
 
+---
 
-sad svg :
- 
+## Role of URI in NFTs
+A **Uniform Resource Identifier (URI)** is a sequence of characters that uniquely identifies a resource.  
+URIs are fundamental in computer science and networking — they are used to **name** or **locate** resources such as web pages, images, files, or even abstract concepts.  
 
-data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNHB4IiBoZWlnaHQ9IjEwMjRweCIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBmaWxsPSIjMzMzIiBkPSJNNTEyIDY0QzI2NC42IDY0IDY0IDI2NC42IDY0IDUxMnMyMDAuNiA0NDggNDQ4IDQ0OCA0NDgtMjAwLjYgNDQ4LTQ0OFM3NTkuNCA2NCA1MTIgNjR6bTAgODIwYy0yMDUuNCAwLTM3Mi0xNjYuNi0zNzItMzcyczE2Ni42LTM3MiAzNzItMzcyIDM3MiAxNjYuNiAzNzIgMzcyLTE2Ni42IDM3Mi0zNzIgMzcyeiIvPgogIDxwYXRoIGZpbGw9IiNFNkU2RTYiIGQ9Ik01MTIgMTQwYy0yMDUuNCAwLTM3MiAxNjYuNi0zNzIgMzcyczE2Ni42IDM3MiAzNzIgMzcyIDM3Mi0xNjYuNiAzNzItMzcyLTE2Ni42LTM3Mi0zNzItMzcyek0yODggNDIxYTQ4LjAxIDQ4LjAxIDAgMCAxIDk2IDAgNDguMDEgNDguMDEgMCAwIDEtOTYgMHptMzc2IDI3MmgtNDguMWMtNC4yIDAtNy44LTMuMi04LjEtNy40QzYwNCA2MzYuMSA1NjIuNSA1OTcgNTEyIDU5N3MtOTIuMSAzOS4xLTk1LjggODguNmMtLjMgNC4yLTMuOSA3LjQtOC4xIDcuNEgzNjBhOCA4IDAgMCAxLTgtOC40YzQuNC04NC4zIDc0LjUtMTUxLjYgMTYwLTE1MS42czE1NS42IDY3LjMgMTYwIDE1MS42YTggOCAwIDAgMS04IDguNHptMjQtMjI0YTQ4LjAxIDQ4LjAxIDAgMCAxIDAtOTYgNDguMDEgNDguMDEgMCAwIDEgMCA5NnoiLz4KICA8cGF0aCBmaWxsPSIjMzMzIiBkPSJNMjg4IDQyMWE0OCA0OCAwIDEgMCA5NiAwIDQ4IDQ4IDAgMSAwLTk2IDB6bTIyNCAxMTJjLTg1LjUgMC0xNTUuNiA2Ny4zLTE2MCAxNTEuNmE4IDggMCAwIDAgOCA4LjRoNDguMWM0LjIgMCA3LjgtMy4yIDguMS03LjQgMy43LTQ5LjUgNDUuMy04OC42IDk1LjgtODguNnM5MiAzOS4xIDk1LjggODguNmMuMyA0LjIgMy45IDcuNCA4LjEgNy40SDY2NGE4IDggMCAwIDAgOC04LjRDNjY3LjYgNjAwLjMgNTk3LjUgNTMzIDUxMiA1MzN6bTEyOC0xMTJhNDggNDggMCAxIDAgOTYgMCA0OCA0OCAwIDEgMC05NiAweiIvPgo8L3N2Zz4=
+### Key aspects of URIs:
+- **Uniqueness:** Each URI identifies a specific resource.  
+- **Types:**
+  - **URL (Uniform Resource Locator):** Locates a resource (e.g., `https://example.com/image.png`).  
+  - **URN (Uniform Resource Name):** Names a resource persistently (e.g., `urn:isbn:0451450523`).  
 
+In NFTs, URIs are critical because they **link each NFT to its metadata** (image, description, traits, etc.). This ensures that every token in a collection has a unique digital identity.
 
-example svg :
-data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgZmlsbD0icmVkIiAvPgo8L3N2Zz4==
+---
+
+## What to Expect in This Contract
+This repository introduces:
+- **IPFS (InterPlanetary File System):** A distributed, peer-to-peer, decentralized storage system where NFT metadata and assets can be stored. This keeps NFTs censorship-resistant and permanent.  
+- **SVG (Scalable Vector Graphics):** A vector image format used to render or store NFT artwork directly on-chain, ensuring decentralization without relying only on external storage.
+
+---
+
+## How to Clone and Build the Contract
+
+```bash
+git clone https://github.com/kamilsiu/NFTs
+cd Non-fungible-Tokens
+forge install
+forge build
+```
+### Functions Implemented
+*Minting Function*
+This function mints NFTs on-chain, assigning a unique token ID and linking it to its URI.
+
+*Core Protocol Function*
+This is part of the ERC-721 standard implementation — one of the core building blocks of the project. Detailed explanations will be provided in future docs.
+
+# License
+This project is licensed under the MIT License
